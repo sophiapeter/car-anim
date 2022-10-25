@@ -1,0 +1,29 @@
+body
+{
+	background-image: url(../images/road.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+
+}
+
+.car
+{
+	width :200px;
+	height: 100px;
+	position: relative;
+	top: 1500px;
+	left: 2400px;
+	bottom: ;
+	transform: scale(0.5);
+	animation: go 5s infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes go
+ {
+	from{ bottom: 250px; }
+	to{ top: 1200px; left: 2470px; transform: scale(0.1); } 
+	
+}
+
